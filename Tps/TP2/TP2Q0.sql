@@ -1,3 +1,5 @@
+// Qst 0
+1 - 
 drop table emp ;
 drop Table Dept ;
 
@@ -78,3 +80,8 @@ insert into emp values
 (7934,'MILLER','CLERK',7782,to_date('23-1-1982','dd-mm-yyyy'),1300,NULL,10) ;
 
 commit;
+-----------------------------------------------------------------------------------------------------------------------
+2 - 
+insert into emp values (7000,'MOUNJI','SALESMAN',7566,to_date('17-08-2001','dd-mm-yyyy'),3500,NULL,20); 
+Commit;
+
