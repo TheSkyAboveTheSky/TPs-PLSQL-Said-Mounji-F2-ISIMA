@@ -1,0 +1,1 @@
+ALTER TRIGGER noweek_mounji DISABLE;
