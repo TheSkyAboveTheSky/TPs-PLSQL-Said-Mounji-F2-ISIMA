@@ -18,9 +18,9 @@ BEGIN
   WHERE TypeMaj = v_typemaj;  
 END stat_mounji;
 /
---------------------------------------------------------------
+--------------------------------------------------------------------------------------
 INSERT INTO EMP VALUES (8000, 'John', 'Manager', NULL, SYSDATE, 3500, NULL, 10);
 UPDATE EMP SET sal = 3500 WHERE empno = 7000;
 DELETE FROM EMP WHERE empno = 8000;
-
+---------------------------------------------------------------------------------------
 SELECT * FROM STATS_mounji;

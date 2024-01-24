@@ -29,18 +29,6 @@ BEGIN
   COMMIT;
 END;
 /
-
-
-
-
-
-
-
-
-
-
-
-
 ------------------------------
 SET SERVEROUTPUT ON;
 DECLARE
